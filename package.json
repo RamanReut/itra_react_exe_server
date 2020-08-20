@@ -1,0 +1,21 @@
+{
+  "name": "api",
+  "version": "0.0.1",
+  "description": "api for execise",
+  "main": "index.js",
+  "author": "Raman Reut",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^4.17.1",
+    "yargs": "^15.4.1"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "build": "node scripts/install.js -g task_1 -G 'https://github.com/Soolamis/itra_react_exe_client.git'"
+  },
+  "devDependencies": {
+    "eslint": "^7.7.0",
+    "eslint-plugin-node": "^11.1.0"
+  }
+}
